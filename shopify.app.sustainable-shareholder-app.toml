@@ -1,0 +1,23 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "sustainable-shareholder-app"
+client_id = "cd9d5853717a0dcc8d41e6d045895314"
+application_url = "https://server-intensive-mba-greater.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://server-intensive-mba-greater.trycloudflare.com/auth/callback",
+  "https://server-intensive-mba-greater.trycloudflare.com/auth/shopify/callback",
+  "https://server-intensive-mba-greater.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false

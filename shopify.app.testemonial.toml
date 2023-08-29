@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "testemonial"
+client_id = "66a2953d31ab1c4b506c1857a1aa06a7"
+application_url = "https://dramatically-viii-square-accordance.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://dramatically-viii-square-accordance.trycloudflare.com/auth/callback",
+  "https://dramatically-viii-square-accordance.trycloudflare.com/auth/shopify/callback",
+  "https://dramatically-viii-square-accordance.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "checout-modification.myshopify.com"
