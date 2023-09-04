@@ -2,18 +2,18 @@
 
 name = "testomial-test"
 client_id = "f54e91bf2e5198477d54e7d8fee714ea"
-application_url = "https://pads-scholarships-drive-asus.trycloudflare.com"
+application_url = "https://volt-volunteers-workplace-barbara.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = ""
+scopes = "write_products,read_discounts,write_discounts,write_pixels,read_customer_events"
 
 [auth]
 redirect_urls = [
-  "https://pads-scholarships-drive-asus.trycloudflare.com/auth/callback",
-  "https://pads-scholarships-drive-asus.trycloudflare.com/auth/shopify/callback",
-  "https://pads-scholarships-drive-asus.trycloudflare.com/api/auth/callback"
+  "https://volt-volunteers-workplace-barbara.trycloudflare.com/auth/callback",
+  "https://volt-volunteers-workplace-barbara.trycloudflare.com/auth/shopify/callback",
+  "https://volt-volunteers-workplace-barbara.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

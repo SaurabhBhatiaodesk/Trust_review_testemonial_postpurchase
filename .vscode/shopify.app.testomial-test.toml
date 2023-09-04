@@ -1,0 +1,26 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "testomial-test"
+client_id = "f54e91bf2e5198477d54e7d8fee714ea"
+application_url = "https://subaru-hardly-isolated-april.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://subaru-hardly-isolated-april.trycloudflare.com/auth/callback",
+  "https://subaru-hardly-isolated-april.trycloudflare.com/auth/shopify/callback",
+  "https://subaru-hardly-isolated-april.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "checout-modification.myshopify.com"
